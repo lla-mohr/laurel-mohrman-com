@@ -1,0 +1,128 @@
+@font-face {
+     font-family: 'StateFaceRegular';
+     src: url('./stateface/stateface-regular-webfont.eot');
+     src: url('./stateface/stateface-regular-webfont.eot?#iefix') format('embedded-opentype'),
+          url('./stateface/stateface-regular-webfont.woff') format('woff'),
+          url('./stateface/stateface-regular-webfont.ttf') format('truetype'),
+          url('./stateface/stateface-regular-webfont.svg#StateFaceRegular') format('svg');
+     font-weight: normal;
+     font-style: normal;
+ }
+h1 {
+	font-family: 'Lily Script One', serif;
+	font-size: 90px;
+	text-align: center;
+	background-color: #F2B50F;
+}
+.jumbotron {
+	background-color: #F2B50F;
+}
+body {
+	background-color: #F2B50F;
+}
+a{
+	color:#000000;
+}
+.connect {
+	font-family: 'Raleway', serif;
+	font-size: 24px;
+	text-align: center;
+	padding-right:20px;
+}
+.container{
+text-align: center;
+}
+.tabs{
+padding-right: 35px;
+}
+ul.tabs{
+list-style: none;
+}
+ul.tabs li{
+background: none;
+display: inline-block;
+font-size: 28px;
+padding-right: 24px;
+cursor: pointer;
+text-align: center;
+}
+.tab-content{
+display: none;
+padding: 60px;
+font-family: 'Raleway', serif;
+font-size: 24px;
+}
+.tab-content.current{
+display: inherit;
+}
+ul.tab-2img {
+list-style: none;
+
+}
+ul.tab-2img li {
+display:inline-block;
+}
+.tab2img img{
+height: 400px;
+width:300px;
+}
+
+ul.tab-4img {
+list-style: none;
+
+}
+ul.tab-4img li {
+display:inline-block;
+}
+.tab4img img{
+height: 400px;
+width:300px;
+}
+.moveytexas {
+background-color: #F2B50F;
+}
+.moveytexas img {
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+}
+.aboutme p {
+position: absolute;
+margin-left: 1000px;
+margin-right: 300px;
+left: 100px;
+right: 0;
+}
+.willhunting, .fifth, .rushmore, .shawshank, .clockwork, .thursday, .eden, .wrinkle, .bravenewworld, .alaska {
+position:relative;
+}
+.willhunting:hover img, .fifth:hover img, .shawshank:hover img, .bravenewworld:hover img, .eden:hover img, .wrinkle:hover img, .thursday:hover img, .clockwork:hover img, .alaska:hover img, .rushmore:hover img{
+opacity: 0.3;
+}
+.willhunting .description, .fifth .description, .shawshank .description, .bravenewworld .description, .eden .description, .wrinkle .description, .thursday .description, .clockwork .description, .alaska .description, .rushmore .description{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+.willhunting:hover .description, .fifth:hover .description, .shawshank:hover .description, .bravenewworld:hover .description, .eden:hover .description, .wrinkle:hover .description, .thursday:hover .description, .clockwork:hover .description, .alaska:hover .description, .rushmore:hover .description {
+  visibility: visible;
+  opacity: 1;
+}
+#tab-2,#tab-4 {
+font-family: 'Playfair Display SC', serif;
+font-size: 48px;
+}
+#tab-5 img {
+height: 250px;
+width: 300px;
+display: inline-block;
+}
+#tab5img {
+padding-left: 5px;
+}

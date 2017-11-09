@@ -1,0 +1,20 @@
+h1 {
+	font-family: 'Lily Script One', serif;
+	font-size: 90px;
+	text-align: center;
+	background-color: #F2B50F;
+}
+.jumbotronproj {
+	background-color: #F2B50F;
+}
+.clickyprojects{
+	font-family: 'Raleway', serif;
+	font-size: 24px;
+	text-align: center;
+}
+body {
+	background-color: #F2B50F;
+}
+a{
+	color:#000000;
+}
